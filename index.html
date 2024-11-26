@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaqueries.css"/>
+</head>
+<body>
+    <nav id="desktop-nav">
+      <div class= "logo">NAMI</div>
+      <div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#plans">Plans</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+       </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">NAMI</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon"onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about"onclick="toggleMenu()">About</a></li>
+            <li><a href="#plans"onclick="toggleMenu()">Plans</a></li>
+            <li><a href="#hobbies"onclick="toggleMenu()">Hobbies</a></li>
+            <li><a href="#skills"onclick="toggleMenu()">Skills</a></li>
+            <li><a href="#contact"onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="assets/IMG_0314.jpeg" alt="NAMI profile picture">
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">NAMI</h1>
+        <p class="section__text__p2">Student from UE Caloocan</p>
+        <div class="btn-container">
+          <button class="btn btn-color-1" onclick="location.href='./#contact '">
+            Contact Info
+            </button>
+        </div>
+        <div id="socials-container">
+          <img 
+          src="assets/fb.jpg" 
+          alt="My facebook profile"
+          class="icon"
+          onclick="location.href='https://www.facebook.com/denisse.namion.92'"
+          />
+          <img 
+          src="assets/tiktok.jpg"
+          alt="My tiktok profile"
+          class="icon"
+          onclick="location.href='https://www.tiktok.com/@na_miiiiiiiii?_t=8rhqNtngYWP&_r=1'"
+          />
+          <img 
+          src="assets/gmail.jpg"
+          alt="My gmail profile"
+          class="icon"
+          onclick="location.href='mailto:derrynamion295@gmail.com'"
+          />
+        </div>
+      </div>
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me </h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img 
+        src="assets/about me.jpg"
+        alt="Profile picture"
+        class="about-pic"
+        />
+      </div>
+      <div class="about-details-container">
+        <div class="about-container">
+          <div class="details-container">
+            <img 
+            src="assets/questionmark.jpg" 
+            alt="Who am I? icon"
+            class="icon"
+            />
+            <h3>Who am I?</h3>
+            <P>Hello! I am Denisse Margarett B. Namion.<br />You can call me "Nami" (thats what my friends call me).<br />I am 19 years old.<br />My birthday is on February 25, 2005.</P>
+          </div>
+          <div class="details-container">
+            <img 
+            src="assets/school.jpg" 
+            alt="Education icon"
+            class="icon"
+            />
+            <h3>Education</h3>
+            <p>Malabon Elementary School(MES)<br /> Malabon National High School (MNHS)</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            Hello, I am Denisse Margarett B. Namion, a freshman student from University of the East. 
+            I graduated elementary school from Malabon Elementary School (MES), and i graduated junior and senior year from Malabon National High School(MNHS). 
+            My strand in senior high year was General Academic Strand(GAS). 
+            Right now, I'm taking Bachelor of Science in Information Technology (BSIT) in Ue Caloocan to pursue my dreams.
+          </p>
+        </div>
+      </div>
+    </div>
+    <img 
+    src="./assets/arrow.jpg" 
+    alt="arrow-icon"
+    class="icon arrow"
+    onclick="location.href='./#plans'"
+    />
+  </section>
+  <section id="plans">
+    <p class="section__text__p1">Let's explore My</p>
+    <h1 class="title">Plans!</h1>
+    <div class="experience-details-counter">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">My Plans for the Present!</h2>
+          <div class="article-container">
+            <article>
+              <img 
+                src="assets/pin.jpg" 
+                alt="experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Plan 1</h3>
+                <p>Survive my <br />freshman year.</p>
+              </div>
+            </article>
+            <article>
+              <img 
+                src="assets/pin.jpg" 
+                alt="experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Plan 2</h3>
+                <p>pass all my <br />activities on time.</p>
+              </div>
+            </article>
+            <article>
+              <img 
+                src="assets/pin.jpg" 
+                alt="experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Plan 3</h3>
+                <p>Study for the <br />finals.</p>
+              </div>
+            </article>
+            <article>
+              <img 
+                src="assets/pin.jpg" 
+                alt="experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Plan 4</h3>
+                <p>Accomplish everything before the sem ends. <br />So i wont have any problems after the sem ends.</p>
+              </div>
+            </article>
+            <article>
+              <img 
+                src="assets/pin.jpg" 
+                alt="experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Plan 5</h3>
+                <p>Enjoy my<br />vacation.</p>
+              </div>
+            </article>
+            <article>
+              <img 
+                src="assets/pin.jpg" 
+                alt="experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Plan 6</h3>
+                <p>Spend more time <br />with my family.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">My Future Plans!</h2>
+          <div class="article-container">
+            <article>
+              <img 
+                src="assets/pin.jpg" 
+                alt="experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Plan 1</h3>
+                <p>Finish <br />college as an IT.</p>
+              </div>
+            </article>
+            <article>
+              <img 
+                src="assets/pin.jpg" 
+                alt="experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Plan 2</h3>
+                <p>Work to get at least<br />3 years of experience.</p>
+              </div>
+            </article>
+            <article>
+              <img 
+                src="assets/pin.jpg" 
+                alt="experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Plan 3</h3>
+                <p>Study other language  <br />like japanese.</p>
+              </div>
+            </article>
+            <article>
+              <img 
+                src="assets/pin.jpg" 
+                alt="experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Plan 4</h3>
+                <p>Go to japan<br />to work and fullfill another one of my dreams.</p>
+              </div>
+            </article>
+            <article>
+              <img 
+                src="assets/pin.jpg" 
+                alt="experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Plan 5</h3>
+                <p>Get a citizenship in<br />Japan.</p>
+              </div>
+            </article>
+            <article>
+              <img 
+                src="assets/pin.jpg" 
+                alt="experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Plan 6</h3>
+                <p>Travell <br />the world.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img 
+    src="./assets/arrow.jpg" 
+    alt="arrow-icon"
+    class="icon arrow"
+    onclick="location.href='./#skills'"
+    />
+  </section>
+  <section id="skills">
+    <p class="section__text__p1">What are my </p>
+    <h1 class="title">Skills?</h1>
+    <div class="about-containers">
+      <div class="details-container color container">
+        <div class="article-container">
+          <img 
+            src="assets/helpfulness.jpg" 
+            alt="skill 1"
+            class="logo"
+            />
+        </div>
+        <h2 class="skills-sub-title">HELPFULNESS</h2>
+        <p>I would always help other people if i could.</p>
+      </div>
+      <div class="details-container color container">
+        <div class="article-container">
+          <img 
+            src="assets/team.jpg" 
+            alt="skill 1"
+            class="logo"
+            />
+        </div>
+        <h2 class="skills-sub-title">TEAMWORK</h2>
+        <p>I'm good at communicating and building relationships with others, so I'm good at teamwork.</p>
+      </div>
+      <div class="details-container color container">
+        <div class="article-container">
+          <img 
+            src="assets/com.jpg" 
+            alt="skill 1"
+            class="logo"
+            />
+        </div>
+        <h2 class="skills-sub-title">COMMUNICATION</h2>
+        <p>Im good at communicating with others.</p>
+      </div>
+      <div class="details-container color container">
+        <div class="article-container">
+          <img 
+            src="assets/emp.jpg" 
+            alt="skill 1"
+            class="logo"
+            />
+        </div>
+        <h2 class="skills-sub-title">EMPHATY</h2>
+        <p>I listen actively, and I show respect and empathy toward others.</p>
+      </div>
+      <div class="details-container color container">
+        <div class="article-container">
+          <img 
+            src="assets/questionmark.jpg" 
+            alt="skill 1"
+            class="logo"
+            />
+        </div>
+        <h2 class="skills-sub-title">CURIOSITY</h2>
+        <p>I'm always eager to learn and understand new things.</p>
+      </div>
+    </div>
+    <img 
+    src="./assets/arrow.jpg" 
+    alt="arrow-icon"
+    class="icon arrow"
+    onclick="location.href='./#hobbies'"
+    />
+  </section>
+</section>
+<section id="hobbies">
+  <p class="section__text__p1">What are my </p>
+  <h1 class="title">Hobbies?</h1>
+  <div class="about-containers">
+    <div class="details-container color container">
+      <div class="article-container">
+        <img 
+          src="assets/anime.jpg" 
+          alt="skill 1"
+          class="logo"
+          />
+      </div>
+      <h2 class="skills-sub-title">Watching anime and reading manga!</h2>
+      <p>I love animeeeee saur much, they are my firend during quarantine.</p>
+    </div>
+    <div class="details-container color container">
+      <div class="article-container">
+        <img 
+          src="assets/valo.jpg" 
+          alt="skill 1"
+          class="logo"
+          />
+      </div>
+      <h2 class="skills-sub-title">Playing online games!</h2>
+      <p>I love playing online games. But because of it i had to listen to music.</p>
+    </div>
+    <div class="details-container color container">
+      <div class="article-container">
+        <img 
+          src="assets/musica.jpg" 
+          alt="skill 1"
+          class="logo"
+          />
+      </div>
+      <h2 class="skills-sub-title">Listening to music</h2>
+      <p>I love listening to music, because it helps me calm when im stressed.</p>
+    </div>
+    <div class="details-container color container">
+      <div class="article-container">
+        <img 
+          src="assets/bad.jpg" 
+          alt="skill 1"
+          class="logo"
+          />
+      </div>
+      <h2 class="skills-sub-title">Badminton</h2>
+      <p>I like playing badminton with my friends</p>
+    </div>
+    <div class="details-container color container">
+      <div class="article-container">
+        <img 
+          src="assets/biki.jpg" 
+          alt="skill 1"
+          class="logo"
+          />
+      </div>
+      <h2 class="skills-sub-title">Biking around</h2>
+      <p>I like biking around because its fun, and the scenery is so beautiful.</p>
+    </div>
+  </div>
+  <img 
+  src="./assets/arrow.jpg" 
+  alt="arrow-icon"
+  class="icon arrow"
+  onclick="location.href='./#contact'"
+  />
+</section>
+<section id="contact">
+  <p class="section__text__p1">Get in Touch</p>
+  <h1 class="title">Contact Me</h1>
+  <div class="contact-info-upper-container">
+    <div class="contact-info-container">
+        <img 
+        src="assets/gmail.jpg" 
+        alt="Email icon"
+        class="icon contact-icon"
+        />
+        <p><a href="mailto:derrynamion295@gmail.com">derrynamion295@gmail.com</a></p>
+    </div>
+    <div class="contact-info-container">
+        <img 
+        src="assets/tiktok.jpg" 
+        alt="Email icon"
+        class="icon contact-icon"
+        />
+        <p><a href="https://www.tiktok.com/@na_miiiiiiiii?_t=8rhqNtngYWP&_r=1">@na_miiiiiiiii</a></p>
+    </div>
+    <div class="contact-info-container">
+        <img 
+        src="assets/fb.jpg" 
+        alt="Email icon"
+        class="icon contact-icon"
+        />
+        <p><a href="https://www.facebook.com/denisse.namion.92">Denisse Namion</a></p>
+    </div>
+  </div>
+</section>
+<footer>
+  <nav>
+    <div class="nav-links-container">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#plans">Plans</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <p>Copyright &#169; 2024 NAMI. All Rights Reserved.</p>
+</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
